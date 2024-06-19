@@ -1,0 +1,22 @@
+@font-face {
+    font-family: cream;
+    src: url(../fonte/FE-FONT.TTF);
+}
+@font-face {
+    font-family: pin;
+    src: url(../fonte/Astonpoliz.otf);
+}
+body{
+    background-color:cornflowerblue;
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-family: cream;
+}
+.costumdiv{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    font-family: pin;
+}

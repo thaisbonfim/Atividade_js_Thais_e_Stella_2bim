@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/calculo.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas de Trabalho</title>
+    
+</head>
+
+<body>
+    <header class="border">
+        <div>
+            <h2 class="cream">
+                Exercicio 1 Calculo de Horas Semanais de trabalho
+            </h2>
+        </div>
+    </header>
+    <div class="main">
+        <div class="costumdiv">
+            <div>
+                <h3>
+                    Cálculo total de aulas
+                </h3>
+            </div>
+            <div class="sub">
+                <label class="customlabel">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label class="customlabel">Valor HORA/AULA</label>
+                <input type="text" name="nome" id="val">
+
+                <label class="customlabel">Total H/A semanal</label>
+                <input type="text" name="nome" id="hr">
+            </div>
+            <div>
+                <label class="bla"> Total Geral:</label>
+                <p class="geral"></p>
+                <button onclick="conta()">Calcular</button>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/calculo.js"></script>
+</body>
+
+</html>
